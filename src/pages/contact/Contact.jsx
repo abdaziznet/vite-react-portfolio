@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const Contact = () => {
   return (
-    <div>Contact</div>
-  )
-}
+    <section className="contact section">
+      <h2 className="section__title">
+        Get In <span>Touch</span>
+      </h2>
+    </section>
+  );
+};
 
-export default Contact
+export default Contact;
