@@ -2,7 +2,7 @@ import React from "react";
 import Profile from "../../assets/home.jpg";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
-import "./home.css"
+import "./home.css";
 
 const Home = () => {
   return (
@@ -15,13 +15,29 @@ const Home = () => {
           </h1>
 
           <p className="home__description">
-            I'm Indonesian based Senior Software Engineer with more than 9 years
-            of experience specializing in front and back-end development
-            (Full-stack developer). Experience with all stages of the
-            development cycle for dynamic web projects. Having deep knowledge
-            including advanced Front-End(HTML5, CSS3, JavaScript) and
-            Back-End(C#, C++, Java, T-SQL, .Net Core, Node.js). Strong
-            background in management and leadership.
+            "Im a passionate Software Engineer with over nine years of
+            experience in software development. My focus is on creating
+            innovative technical solutions and delivering exceptional user
+            experiences. I have expertise in web application development, with
+            in-depth knowledge of programming languages like JavaScript, .NET
+            Core, and Java.</p>
+            
+            {/* <p className="home__description">I take pride in developing efficient and scalable
+            solutions, continually seeking ways to improve code quality and
+            development processes. Throughout my career, I have contributed to
+            several major projects, ranging from core banking assurance to
+            branch delivery system authentication using fingerprint devices.</p>  */}
+            
+            <p className="home__description">In addition to technical skills, I possess strong communication
+            abilities and excel at collaborating within teams. I enjoy tackling
+            technical challenges and continuously strive to learn and adapt to
+            industry advancements. </p>
+
+            <p className="home__description">I believe technology can change the world for
+            the better, and I am committed to contributing to the development of
+            technology that positively impacts society. If you are seeking
+            someone dedicated, open-minded, and enthusiastic about technological
+            innovation, I am ready to collaborate with you."
           </p>
 
           <Link to="/about" className="button">
@@ -33,9 +49,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="color__block">
-        
-      </div>
+      <div className="color__block"></div>
     </section>
   );
 };

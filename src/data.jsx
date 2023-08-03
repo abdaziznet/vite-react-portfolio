@@ -12,9 +12,11 @@ import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 import Work1 from './assets/project-1.jpeg';
 import Work2 from './assets/project-2.jpg';
 import Work3 from './assets/project-3.jpeg';
-import Work4 from './assets/project-4.jpeg';
+import Work4 from './assets/project-4.jpg';
 import Work5 from './assets/project-5.jpg';
 import Work6 from './assets/project-6.jpg';
+import Work7 from './assets/project-7.jpg';
+import Work8 from './assets/project-8.jpg';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -104,26 +106,26 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: '12+',
+    no: '9+',
     title: 'Years of <br /> Experience',
   },
 
   {
     id: 2,
-    no: '97+',
+    no: '8+',
     title: 'Completed <br /> Projects',
   },
 
   {
     id: 3,
-    no: '81+',
+    no: '6+',
     title: 'Happy <br /> Customers',
   },
 
   {
     id: 4,
-    no: '53+',
-    title: ' Awards <br /> Won',
+    no: '13+',
+    title: ' Certifications',
   },
 ];
 
@@ -132,36 +134,36 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    year: '2016 - PRESENT',
+    title: 'System Engineer <span> PT. Ivatama Teknologi </span> ',
+    desc: 'Application analyst and Database Design, Functional Specification And Technical Documentation, Deployment and Implementation Preparation',
   },
 
   {
     id: 2,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: '2014 - 2016',
+    title: 'K2 and Sharepoint Developer <span> PT. Prima Integrasi Solusindo </span>',
+    desc: 'Application analyst and Database Design, Functional Specification And Technical Documentation, Deployment and Implementation Preparation',
   },
 
   {
     id: 3,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+    year: '2013 - 2014',
+    title: 'Junior Programmer <span> PT. Victorindo Abadi Solusindo </span>',
+    desc: 'Application analyst and Database Design',
   },
-
+  
   {
     id: 4,
-    category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    category: 'experience',
+    icon: <FaBriefcase />,
+    year: '2011 - 2013',
+    title: 'Freelancer <span> PT. Kompas Gramedia </span>',
+    desc: 'Interviewer and Asistent Reasearch in Litbang Harian Kompas',
   },
 
   {
@@ -169,17 +171,8 @@ export const resume = [
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-  },
-
-  {
-    id: 6,
-    category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    title: 'Computer Degree <span> Budi Luhur University </span>',
+    desc: 'Faculty of information technology - Information Systems Department',
   },
 ];
 
@@ -237,27 +230,22 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Photo Editing',
+    title: 'Catch!',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Catch!',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'PT. Asuransi Adira Dinamika ',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'C#',
       },
     ],
   },
@@ -265,55 +253,46 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    title: 'Document Management System',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Document Management System',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'IDX (Indonesia Stock Exchange)',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React JS',
+        desc: 'C# Sharepoint',
       },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
-      },
+      
     ],
   },
 
   {
     id: 3,
     img: Work3,
-    title: 'Video Editing',
+    title: 'Medical Panel',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Medical Panel',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'PT. Prudential Life Assurance (Prudential Indonesia)',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'C# and Sharepoint',
       },
     ],
   },
@@ -321,27 +300,22 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'Video Editing',
+    title: 'FSMGMT, Attendance and BDS Web',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'FSMGMT and Attendance',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'PT. Bank Central Asia',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'C++, java, and C#',
       },
     ],
   },
@@ -349,23 +323,22 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: 'Landing Page',
+    title: 'ECIC',
     details: [
       {
+        icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'ECIC (Electronic for Capital Investment Committee)',
       },
       {
+        icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'PT. Bank CIMB Niaga',
       },
       {
+        icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React JS, Node JS',
-      },
-      {
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'C# and K2',
       },
     ],
   },
@@ -373,27 +346,68 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: 'Photo Editing',
+    title: 'FSMGMT and Attendance V2',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'FSMGMT and Attendance V2',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'PT. Bank Central Asia',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'C++ and C#',
+      },
+    ],
+  },
+
+  {
+    id: 7,
+    img: Work7,
+    title: 'BERTA',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Fingerprint Integration with BERTA Services',
       },
       {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dibble.com',
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'PT. Bank Central Asia',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'C#',
+      },
+    ],
+  },
+
+  {
+    id: 8,
+    img: Work8,
+    title: 'Biometric Password',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Biometric Password',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'PT. Bank Tabungan Negara',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'C++, .Net Core, and C#',
       },
     ],
   },
