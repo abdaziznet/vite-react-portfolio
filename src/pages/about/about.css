@@ -39,7 +39,7 @@
   line-height: 1.2;
 }
 
-.stats_title {
+.stats__title {
   font-size: var(--small-font-size);
   line-height: 1.6;
   padding-left: 45px;
