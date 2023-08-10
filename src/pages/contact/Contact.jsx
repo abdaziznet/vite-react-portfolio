@@ -11,6 +11,10 @@ import { FiSend } from "react-icons/fi";
 import "./contact.css";
 
 const Contact = () => {
+  const handleMailTo = () => {
+    window.location.href = 'mailto:dev.abdaziz@outlook.com';
+  };
+
   return (
     <section className="contact section">
       <h2 className="section__title">
@@ -82,7 +86,7 @@ const Contact = () => {
           <div className="form__input-group">
             <div className="form__input-div">
               <input
-                type="text"
+                type="text"                
                 placeholder="Your Name"
                 className="form__control"
               />
@@ -112,7 +116,7 @@ const Contact = () => {
             ></textarea>
           </div>
 
-          <button className="button">
+          <button className="button" onClick={handleMailTo} >
             Send Message
             <span className="button__icon contact__button-icon">
               <FiSend />
