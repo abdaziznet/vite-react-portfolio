@@ -30,8 +30,9 @@ import Theme9 from "./assets/green.png";
 import Theme10 from "./assets/yellow.png";
 
 import Cert1 from "./assets/img-cert-MTA.png";
-import Cert2 from './assets/img-cert-KAFKA.png'
-import Cert3 from './assets/img-cert-dicoding.png'
+import Cert2 from './assets/img-cert-KAFKA.png';
+import Cert3 from './assets/img-cert-dicoding.png';
+import Cert4 from './assets/K2_Five_Core_Badge.png';
 
 
 export const links = [
@@ -239,6 +240,7 @@ export const certificate = [
     title: "MTA: Software Development Fundamentals",
     desc: "Earners of the MTA: Software Development Fundamentals certification have demonstrated core software development skills. The MTA program provides an appropriate entry point to a future career in technology.",
     date: "2022",
+    url: "https://www.credly.com/badges/1e6b4e79-5494-4fe5-91ed-00be2bde6292?source=linked_in_profile",
   },
   {
     id: 2,
@@ -246,6 +248,7 @@ export const certificate = [
     title: "Confluent Fundamentals Accreditation",
     desc: "Recipient of Confluent Fundamentals Accreditation: Learn the concepts of event streaming and how Kafka enables real-time data processing and event-driven architectures. Materials studied: Kafka Architecture, Kafka Topics and Partitions, Producers and Consumers, Kafka Connect, Kafka Streams.",
     date: "2023",
+    url: "https://www.credential.net/f53d2b09-72dd-4394-9087-11c3674e2308",
   },
   {
     id: 3,
@@ -253,6 +256,7 @@ export const certificate = [
     title: "Learn Google Cloud Basics",
     desc: "Google cloud Basics Certification. Materials studied: Cloud Computing, Servers and Networks, Storage and Databases, Security and Compliance, Cost and Billing, Increasing Business Value.",
     date: "2022",
+    url: "https://www.dicoding.com/certificates/JMZVG1MJJZN9",
   },
   {
     id: 4,
@@ -260,6 +264,7 @@ export const certificate = [
     title: "Learn Javascript Programming Basics",
     desc: "JavaScript Programming Basic Learning Certification. Materials studied: Introduction to JavaScript, JavaScript Fundamentals, Data Structure, Function, Object-Oriented Programming, Functional Programming, Setup Environment, Module, Error Handling, Concurrency, Node Package Manager, JavaScript Testing.",
     date: "2022",
+    url: "https://www.dicoding.com/certificates/GRX5L979VP0M",
   },
   {
     id: 5,
@@ -267,6 +272,7 @@ export const certificate = [
     title: "Learn to Make Back-End Apps for Beginners",
     desc: "Certification of Learning to Create Back-End Applications for Beginners. Materials studied: Introduction to Back-End, Node.js Basics, Building Web Service using Node.js, Deploy Web Service, Consuming and Testing RESTful API using Postman, Submission.",
     date: "2022",
+    url: "https://www.dicoding.com/certificates/07Z6RV9NRPQR",
   },
   {
     id: 6,
@@ -274,6 +280,7 @@ export const certificate = [
     title: "Learn Devops Basics",
     desc: "DevOps Fundamentals Learning Certification. Materials studied: Introduction to DevOps, DevOps Principles, CALMS Framework, DevOps Practices, DevOps Implementation Stories.",
     date: "2022",
+    url: "https://www.dicoding.com/certificates/2VX316KDNZYQ",
   },
   {
     id: 7,
@@ -281,6 +288,7 @@ export const certificate = [
     title: "Cloud Practitioner Essentials (Learn AWS Cloud Basics)",
     desc: "Cloud Practitioner Essentials (AWS Cloud Basic Learning) Certification. Materials studied: Introduction to Amazon Web Services, Computing in the Cloud, Global Infrastructure and Reliability, Networking, Storage and Databases, Security, Monitoring and Analytics, Pricing and Support, Migration and Innovation, Cloud Travel, AWS Certified Cloud Practitioner Fundamentals.",
     date: "2022",
+    url: "https://www.dicoding.com/certificates/6RPNDWEL4Z2M",
   },
   {
     id: 8,
@@ -288,6 +296,7 @@ export const certificate = [
     title: "Learn Computer Networks for Beginners",
     desc: "Learning Computer Networks for Beginners. Materials studied: Network Model, IP Address, Domain Name System, Network Security, Network Services on AWS, and Submission.",
     date: "2023",
+    url: "https://www.dicoding.com/certificates/MEPJK2WV6X3V",
   },
   {
     id: 9,
@@ -295,6 +304,7 @@ export const certificate = [
     title: "Learn Solid Programming Principles",
     desc: "Learning Solid Programming Principles. Materials studied: Object-Oriented Programming (OOP), Relations on OOP, Software Design Principle, S.O.L.I.D.",
     date: "2023",
+    url: "https://www.dicoding.com/certificates/N9ZO4QQY6ZG5",
   },
   {
     id: 10,
@@ -302,6 +312,7 @@ export const certificate = [
     title: "Get Started Programming With Java",
     desc: "Get Started Programming With Java. Materials studied: Introduction to Java, Basic Java, Control Flow, Collection Type, Object-Oriented Programming (OOP), Common Class, Case study.",
     date: "2023",
+    url: "https://www.dicoding.com/certificates/NVP79255RZR0",
   },
   {
     id: 11,
@@ -309,6 +320,15 @@ export const certificate = [
     title: "Learn Basic Structured Query Language (SQL)",
     desc: "Learn Basic Structured Query Language (SQL). Materials studied: Introduction to Data and Databases, Understand the concept of Database Management Systems (DMS), Introduction to Structured Query Language, Understand basic queries that are often used in SQL at a basic stage.",
     date: "2023",
+    url: "https://www.dicoding.com/certificates/1RXY6E469ZVM",
+  },
+  {
+    id: 12,
+    img: Cert4,
+    title: "K2 FIVE CORE",
+    desc: "Earners of the K2 FIVE CORE: Using K2 Apps to quickly create applications, Building simple to intermediate level applications in K2 with SmartObjects, SmartForms, and Workflows, Standard and custom reporting, Day to day administration.",
+    date: "2018",
+    url: "https://www.credential.net/c849c2a0-6768-4b22-8013-9b7d3907bf6f?username=abdaziz#gs.487dhr",
   },
 ];
 
