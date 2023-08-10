@@ -1,19 +1,44 @@
-import React from "react";
+import React, { useRef } from "react";
 import {
   FaEnvelopeOpen,
   FaPhoneSquareAlt,
   FaFacebookF,
   FaTwitter,
   FaYoutube,
-  FaDribbble,
+  FaLinkedin,
+  FaInstagram
 } from "react-icons/fa";
 import { FiSend } from "react-icons/fi";
 import "./contact.css";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
-  const handleMailTo = () => {
-    window.location.href = 'mailto:dev.abdaziz@outlook.com';
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_vxx10vs",
+        "template_iks98l1",
+        form.current,
+        "JlRSuaciuEINcaMDg"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
+
+  // const Contact = () => {
+  //   const handleMailTo = () => {
+  //     window.location.href = 'mailto:dev.abdaziz@outlook.com';
+  //   };
 
   return (
     <section className="contact section">
@@ -41,54 +66,62 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="info__item">
+            {/* <div className="info__item">
               <FaPhoneSquareAlt className="info__icon" />
 
               <div>
                 <span className="info__title">Call me</span>
                 <h4 className="info__desc">+62 856 1010 569</h4>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="contact__socials">
             <a
-              href="https://facebook.com/abdaziz"
+              href="https://www.facebook.com/fb.abdaziz"
               className="contact__social-link"
             >
               <FaFacebookF />
             </a>
 
             <a
-              href="https://twitter.com/abdaziz"
+              href="https://twitter.com/abdaziznet"
               className="contact__social-link"
             >
               <FaTwitter />
             </a>
 
             <a
-              href="https://youtube.com/abdaziz"
+              href="https://youtube.com/@abdaziznet"
               className="contact__social-link"
             >
               <FaYoutube />
             </a>
 
             <a
-              href="https://dribbble.com/abdaziz"
+              href="https://www.linkedin.com/in/abdaziznet"
               className="contact__social-link"
             >
-              <FaDribbble />
+              <FaLinkedin />
+            </a>
+
+            <a
+              href="https://www.instagram.com/abdaziznet"
+              className="contact__social-link"
+            >
+              <FaInstagram />
             </a>
           </div>
         </div>
 
-        <form className="contact__form">
+        <form className="contact__form" ref={form} onSubmit={sendEmail}>
           <div className="form__input-group">
             <div className="form__input-div">
               <input
-                type="text"                
+                type="text"
                 placeholder="Your Name"
                 className="form__control"
+                name="from_name"
               />
             </div>
 
@@ -97,6 +130,7 @@ const Contact = () => {
                 type="email"
                 placeholder="Your Email"
                 className="form__control"
+                name="user_email"
               />
             </div>
 
@@ -105,6 +139,7 @@ const Contact = () => {
                 type="text"
                 placeholder="Your Subject"
                 className="form__control"
+                name="subject"
               />
             </div>
           </div>
@@ -113,10 +148,11 @@ const Contact = () => {
             <textarea
               placeholder="Your Message"
               className="form__control textarea"
+              name="message"
             ></textarea>
           </div>
 
-          <button className="button" onClick={handleMailTo} >
+          <button type="submit" value="Send" className="button">
             Send Message
             <span className="button__icon contact__button-icon">
               <FiSend />
