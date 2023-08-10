@@ -31,7 +31,7 @@ import Theme10 from "./assets/yellow.png";
 
 import Cert1 from "./assets/img-cert-MTA.png";
 import Cert2 from './assets/img-cert-KAFKA.png'
-import Cert3 from './img-cert-dicoding.png'
+import Cert3 from './assets/img-cert-dicoding.png'
 
 
 export const links = [
