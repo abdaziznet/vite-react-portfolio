@@ -39,6 +39,8 @@ const About = () => {
 
       <div className="separator"></div>
 
+      
+
       {/* <section className="skills">
         <h3 className="section__subtitle subtitle__center">My Skills</h3>
 
