@@ -9,14 +9,28 @@ import {
 } from "react-icons/fa";
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
-import Work1 from "./assets/project-1.jpeg";
+import Work1 from "./assets/project-1.jpg";
 import Work2 from "./assets/project-2.jpg";
-import Work3 from "./assets/project-3.jpeg";
+import Work3 from "./assets/project-3.jpg";
 import Work4 from "./assets/project-4.jpg";
 import Work5 from "./assets/project-5.jpg";
 import Work6 from "./assets/project-6.jpg";
 import Work7 from "./assets/project-7.jpg";
 import Work8 from "./assets/project-8.jpg";
+import Work9 from "./assets/project-9.jpg";
+import Work10 from "./assets/project-10.jpg";
+import Work11 from "./assets/project-11.jpg";
+import Work12 from "./assets/project-12.jpg";
+import Work13 from "./assets/project-7.jpg";
+import Work14 from "./assets/project-14.jpg";
+import Work15 from "./assets/project-15.jpg";
+import Work16 from "./assets/project-16.jpg";
+import Work17 from "./assets/project-17.jpg";
+import Work18 from "./assets/project-7.jpg";
+import Work19 from "./assets/project-19.jpg";
+import Work20 from "./assets/project-20.jpg";
+import Work21 from "./assets/project-21.jpg";
+
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -332,10 +346,10 @@ export const certificate = [
   {
     id: 13,
     img: CertK2,
-    title: "K2 Blackpearl Core",
-    desc: "Earners of the K2 Blackpearl: Create process-driven applications, Enterprise-capable workflow engine, Powerful task management, Powerful task management, Extendible and customizable, Extensive integration capabilities.",
+    title: "K2 blackpearl Core",
+    desc: "Earners of the K2 blackpearl Core: Create process-driven applications, Enterprise-capable workflow engine, Powerful task management, Powerful task management, Extendible and customizable, Extensive integration capabilities.",
     date: "2018",
-    url: "https://www.credential.net/c849c2a0-6768-4b22-8013-9b7d3907bf6f?username=abdaziz#gs.487dhr",
+    url: "https://www.credential.net/a1ee9b9e-971f-4574-8f61-8c598b137b85?username=abdaziz#gs.4flgbe",
   },
 ];
 
@@ -412,12 +426,12 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: "FSMGMT, Attendance and BDS Web",
+    title: "Attendance Phase: 2",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "FSMGMT and Attendance",
+        desc: "Enhancement Attendance integration with bioagent",
       },
       {
         icon: <FiUser />,
@@ -427,7 +441,7 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "C++, java, and C#",
+        desc: "C++",
       },
     ],
   },
@@ -435,6 +449,121 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
+    title: "FSMGMT Phase: 2",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Enhancement Fingerprint Management integration with device finger",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "PT. Bank Central Asia",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "C++",
+      },
+    ],
+  },
+
+  {
+    id: 6,
+    img: Work6,
+    title: "BDS Web Simulator",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "BDS Web Simulator integration with bioagent",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "PT. Bank Central Asia",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "Java",
+      },
+    ],
+  },
+
+  {
+    id: 7,
+    img: Work7,
+    title: "Bioagent Phase:2",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Bioagent is Middleware Background Service integration with device finger",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "PT. Bank Central Asia",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "C++",
+      },
+    ],
+  },
+
+  {
+    id: 8,
+    img: Work8,
+    title: "Finger Web Service",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Finger Web Service using WWS (Windows Web Service) API",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "PT. Bank Central Asia",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "C++, and C#",
+      },
+    ],
+  },
+
+  {
+    id: 9,
+    img: Work9,
+    title: "Finger Web Admin",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Finger Web Administrator",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "PT. Bank Central Asia",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "C#, javascript, Bootstrap and JQuery",
+      },
+    ],
+  },
+
+  {
+    id: 10,
+    img: Work10,
     title: "ECIC",
     details: [
       {
@@ -456,14 +585,14 @@ export const portfolio = [
   },
 
   {
-    id: 6,
-    img: Work6,
-    title: "FSMGMT and Attendance V2",
+    id: 11,
+    img: Work11,
+    title: "Attendance Phase: 3",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "FSMGMT and Attendance V2",
+        desc: "Enhancement Attendance integration with bioagent",
       },
       {
         icon: <FiUser />,
@@ -473,14 +602,84 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "C++ and C#",
+        desc: "C++",
       },
     ],
   },
 
   {
-    id: 7,
-    img: Work7,
+    id: 12,
+    img: Work12,
+    title: "FSMGMT Phase: 3",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Enhancement Finger Management integration with device finger",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "PT. Bank Central Asia",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "C++",
+      },
+    ],
+  },
+
+  {
+    id: 13,
+    img: Work13,
+    title: "Bioagent Phase: 3",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Enhancement Bioagent integration with device finger",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "PT. Bank Central Asia",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "C++",
+      },
+    ],
+  },
+
+  {
+    id: 14,
+    img: Work14,
+    title: "Finger Restfull API",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Finger Restfull API",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "PT. Bank Central Asia",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "C#",
+      },
+    ],
+  },
+
+
+  {
+    id: 15,
+    img: Work15,
     title: "BERTA",
     details: [
       {
@@ -502,14 +701,14 @@ export const portfolio = [
   },
 
   {
-    id: 8,
-    img: Work8,
-    title: "Biometric Password",
+    id: 16,
+    img: Work16,
+    title: "FSMGMT Biometric Password",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Biometric Password",
+        desc: "Fingerprint Management for Biometric Password integration with device finger",
       },
       {
         icon: <FiUser />,
@@ -519,7 +718,122 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "C++, .Net Core, and C#",
+        desc: "C++",
+      },
+    ],
+  },
+
+  {
+    id: 17,
+    img: Work17,
+    title: "BDS Client Simulator Biometric Password",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "BDS Client Simulator for Biometric Password integration with bioagent",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "PT. Bank Tabungan Negara",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "Vb 6, and C++",
+      },
+    ],
+  },
+
+  {
+    id: 18,
+    img: Work18,
+    title: "Bioagent Biometric Password",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Bioagent for Biometric Password integration with device finger",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "PT. Bank Tabungan Negara",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "C++",
+      },
+    ],
+  },
+
+  {
+    id: 19,
+    img: Work19,
+    title: "BDS Web Simulator Biometric Password",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "BDS Web Simulator for Biometric Password integration with bioagent",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "PT. Bank Tabungan Negara",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: ".NET Core",
+      },
+    ],
+  },
+
+  {
+    id: 20,
+    img: Work20,
+    title: "Biometric API Windows Service",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Biometric API Windows Service for Biometric Password integration with Library",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "PT. Bank Tabungan Negara",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: ".NET Core, and C++",
+      },
+    ],
+  },
+
+  {
+    id: 21,
+    img: Work21,
+    title: "Finger Restfull API Biometric Password",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Finger Restfull API for Biometric Password",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "PT. Bank Tabungan Negara",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "C#",
       },
     ],
   },
