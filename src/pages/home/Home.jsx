@@ -18,7 +18,7 @@ const Home = () => {
             "Im a passionate Software Engineer with over nine years of
             experience in software development. My focus is on creating
             innovative technical solutions and delivering exceptional user
-            experiences. I have expertise in web application development, with
+            experiences. I have expertise in desktop and web application development, with
             in-depth knowledge of programming languages like JavaScript, .NET
             Core, and Java.</p>
             
