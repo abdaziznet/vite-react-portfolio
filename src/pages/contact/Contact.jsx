@@ -6,7 +6,8 @@ import {
   FaTwitter,
   FaYoutube,
   FaLinkedin,
-  FaInstagram
+  FaInstagram,
+  FaTiktok
 } from "react-icons/fa";
 import { FiSend } from "react-icons/fi";
 import "./contact.css";
@@ -110,6 +111,13 @@ const Contact = () => {
               className="contact__social-link"
             >
               <FaInstagram />
+            </a>
+
+            <a
+              href="https://www.tiktok.com/@abdaziznet"
+              className="contact__social-link"
+            >
+              <FaTiktok />
             </a>
           </div>
         </div>
