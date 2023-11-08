@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import {
   FaEnvelopeOpen,
   FaPhoneSquareAlt,
@@ -12,6 +12,7 @@ import {
 import { FiSend } from "react-icons/fi";
 import "./contact.css";
 import emailjs from "emailjs-com";
+import MessageBox from "../../components/MessageBox";
 import { resume } from "../../data";
 
 function clearForm() {
@@ -30,9 +31,21 @@ function clearForm() {
 
 const Contact = () => {
   const form = useRef();
+  
+  const [isMessageBoxOpen, setMessageBoxOpen] = useState(false);
+  const [messageValue, setMessageValue] = useState('');
+
+  const openMessageBox = (messageValue) => {
+    setMessageValue(messageValue);
+    setMessageBoxOpen(true);
+  };
+
+  const closeMessageBox = () => {
+    setMessageBoxOpen(false);
+  };
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    e.preventDefault();    
 
     emailjs
       .sendForm(
@@ -45,11 +58,13 @@ const Contact = () => {
         (result) => {
           console.log(result.text, result.status);
           clearForm();
-          alert("Email sent success");
+          openMessageBox("Email sent success");
+          //alert("Email sent success");
         },
         (error) => {
           console.log(error.text, error.status);
-          alert("Email sent failed");
+          openMessageBox("Email sent failed");
+          //alert("Email sent failed");
         }
       );
   };
@@ -182,6 +197,12 @@ const Contact = () => {
             </span>
           </button>
         </form>
+        <MessageBox
+          isOpen={isMessageBoxOpen}
+          onClose={closeMessageBox}
+          title="Message Box"
+          message={messageValue}
+        />
       </div>
     </section>
   );
