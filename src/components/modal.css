@@ -4,8 +4,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: white;
-  border: 1px solid #ccc;
+  background-color: var(--body-color);
+  border: 1px solid var(--border-color);
   padding: 20px;
   width: 400px;
   max-width: 80%;
@@ -27,7 +27,7 @@
 
 .modal button {
   background-color: var(--first-color);
-  color: white;
+  color: var(--title-color);
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
