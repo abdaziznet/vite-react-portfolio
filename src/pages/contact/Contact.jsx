@@ -12,6 +12,21 @@ import {
 import { FiSend } from "react-icons/fi";
 import "./contact.css";
 import emailjs from "emailjs-com";
+import { resume } from "../../data";
+
+function clearForm() {
+    var form = document.getElementById("frmAbout");
+
+    // Loop through all form elements and reset their values
+    for (var i = 0; i < form.elements.length; i++) {
+        var element = form.elements[i];
+
+        // Check if the element is an input, select, or textarea
+        if (element.tagName === "INPUT" || element.tagName === "SELECT" || element.tagName === "TEXTAREA") {
+            element.value = "";
+        }
+    }
+}
 
 const Contact = () => {
   const form = useRef();
@@ -28,18 +43,18 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          console.log(result.text, result.status);
+          clearForm();
+          alert("Email sent success");
         },
         (error) => {
-          console.log(error.text);
+          console.log(error.text, error.status);
+          alert("Email sent failed");
         }
       );
   };
 
-  // const Contact = () => {
-  //   const handleMailTo = () => {
-  //     window.location.href = 'mailto:dev.abdaziz@outlook.com';
-  //   };
+
 
   return (
     <section className="contact section">
@@ -122,7 +137,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <form className="contact__form" ref={form} onSubmit={sendEmail}>
+        <form id="frmAbout" className="contact__form" ref={form} onSubmit={sendEmail}>
           <div className="form__input-group">
             <div className="form__input-div">
               <input
