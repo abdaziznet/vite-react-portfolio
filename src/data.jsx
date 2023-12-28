@@ -265,13 +265,29 @@ export const certificate = [
   {
     id: 3,
     img: CertDicoding,
+    title: "Learn Machine Learning for Beginners",
+    desc: "The class is aimed at beginners who want to start their career in the field of machine learning by referring to industry competency standards. At the end of the class, students can learn basic material and Machine Learning algorithms, and be able to implement them in creating Machine Learning models to process data. Materials studied: Introduction to Data, Supervised and Unsupervised Learning, Support Vector Machine (SVM), Machine Learning Basics, Neural Network, TensorFlow",
+    date: "2023",
+    url: "https://www.dicoding.com/certificates/81P2VV21OPOY",
+  },
+  {
+    id: 4,
+    img: CertDicoding,
     title: "Getting Started Programming in Python",
     desc: "The class is aimed at beginners who want to learn the basics of Python programming with reference to industry standards. Materials studied: Getting to know Python, Interacting with Data, Expressions, Control Flow, Matrix, Subprogram, Object-Oriented Programming (OOP), Style Guide in Python, Unit Testing, Popular Libraries in Python.",
     date: "2023",
     url: "https://www.dicoding.com/certificates/GRX5QLRKRZ0M",
   },
   {
-    id: 4,
+    id: 5,
+    img: CertDicoding,
+    title: "Learn Basic Data Visualization",
+    desc: "The class is aimed at beginners who want to start their careers in the field of data processing by referring to industry competency standards. At the end of the class, students can create an effective data visualization using Google Sheets according to industry best practice techniques, thereby increasing their value in a career as a Software Developer.",
+    date: "2023",
+    url: "https://www.dicoding.com/certificates/1RXY1OE83PVM",
+  },
+  {
+    id: 6,
     img: CertDicoding,
     title: "Learn Solid Programming Principles",
     desc: "Learning Solid Programming Principles. Materials studied: Object-Oriented Programming (OOP), Relations on OOP, Software Design Principle, S.O.L.I.D.",
@@ -279,7 +295,7 @@ export const certificate = [
     url: "https://www.dicoding.com/certificates/N9ZO4QQY6ZG5",
   },
   {
-    id: 5,
+    id: 7,
     img: CertDicoding,
     title: "Get Started Programming With Java",
     desc: "Get Started Programming With Java. Materials studied: Introduction to Java, Basic Java, Control Flow, Collection Type, Object-Oriented Programming (OOP), Common Class, Case study.",
@@ -287,7 +303,7 @@ export const certificate = [
     url: "https://www.dicoding.com/certificates/NVP79255RZR0",
   },
   {
-    id: 6,
+    id: 8,
     img: CertDicoding,
     title: "Learn Basic Structured Query Language (SQL)",
     desc: "Learn Basic Structured Query Language (SQL). Materials studied: Introduction to Data and Databases, Understand the concept of Database Management Systems (DMS), Introduction to Structured Query Language, Understand basic queries that are often used in SQL at a basic stage.",
@@ -295,7 +311,7 @@ export const certificate = [
     url: "https://www.dicoding.com/certificates/1RXY6E469ZVM",
   },
   {
-    id: 7,
+    id: 9,
     img: CertDicoding,
     title: "Learn Computer Networks for Beginners",
     desc: "Learning Computer Networks for Beginners. Materials studied: Network Model, IP Address, Domain Name System, Network Security, Network Services on AWS, and Submission.",
@@ -303,7 +319,7 @@ export const certificate = [
     url: "https://www.dicoding.com/certificates/MEPJK2WV6X3V",
   },
   {
-    id: 8,
+    id: 10,
     img: CertDicoding,
     title: "Cloud Practitioner Essentials (Learn AWS Cloud Basics)",
     desc: "Cloud Practitioner Essentials (AWS Cloud Basic Learning) Certification. Materials studied: Introduction to Amazon Web Services, Computing in the Cloud, Global Infrastructure and Reliability, Networking, Storage and Databases, Security, Monitoring and Analytics, Pricing and Support, Migration and Innovation, Cloud Travel, AWS Certified Cloud Practitioner Fundamentals.",
@@ -311,7 +327,7 @@ export const certificate = [
     url: "https://www.dicoding.com/certificates/6RPNDWEL4Z2M",
   },
   {
-    id: 9,
+    id: 11,
     img: CertDicoding,
     title: "Learn Javascript Programming Basics",
     desc: "JavaScript Programming Basic Learning Certification. Materials studied: Introduction to JavaScript, JavaScript Fundamentals, Data Structure, Function, Object-Oriented Programming, Functional Programming, Setup Environment, Module, Error Handling, Concurrency, Node Package Manager, JavaScript Testing.",
@@ -319,7 +335,7 @@ export const certificate = [
     url: "https://www.dicoding.com/certificates/GRX5L979VP0M",
   },
   {
-    id: 10,
+    id: 12,
     img: CertDicoding,
     title: "Learn to Make Back-End Apps for Beginners",
     desc: "Certification of Learning to Create Back-End Applications for Beginners. Materials studied: Introduction to Back-End, Node.js Basics, Building Web Service using Node.js, Deploy Web Service, Consuming and Testing RESTful API using Postman, Submission.",
@@ -327,7 +343,7 @@ export const certificate = [
     url: "https://www.dicoding.com/certificates/07Z6RV9NRPQR",
   },
   {
-    id: 11,
+    id: 13,
     img: CertDicoding,
     title: "Learn Devops Basics",
     desc: "DevOps Fundamentals Learning Certification. Materials studied: Introduction to DevOps, DevOps Principles, CALMS Framework, DevOps Practices, DevOps Implementation Stories.",
@@ -335,7 +351,7 @@ export const certificate = [
     url: "https://www.dicoding.com/certificates/2VX316KDNZYQ",
   },
   {
-    id: 12,
+    id: 14,
     img: CertDicoding,
     title: "Learn Google Cloud Basics",
     desc: "Google cloud Basics Certification. Materials studied: Cloud Computing, Servers and Networks, Storage and Databases, Security and Compliance, Cost and Billing, Increasing Business Value.",
@@ -343,7 +359,7 @@ export const certificate = [
     url: "https://www.dicoding.com/certificates/JMZVG1MJJZN9",
   },
   {
-    id: 13,
+    id: 15,
     img: CertK2,
     title: "K2 Five Core",
     desc: "Earners of the K2 Five Core: Using K2 Apps to quickly create applications, Building simple to intermediate level applications in K2 with SmartObjects, SmartForms, and Workflows, Standard and custom reporting, Day to day administration.",
@@ -351,7 +367,7 @@ export const certificate = [
     url: "https://www.credential.net/c849c2a0-6768-4b22-8013-9b7d3907bf6f?username=abdaziz#gs.487dhr",
   },
   {
-    id: 14,
+    id: 16,
     img: CertK2,
     title: "K2 blackpearl Core",
     desc: "Earners of the K2 blackpearl Core: Create process-driven applications, Enterprise-capable workflow engine, Powerful task management, Powerful task management, Extendible and customizable, Extensive integration capabilities.",
