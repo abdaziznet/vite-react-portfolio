@@ -6,6 +6,8 @@ import {
   FaBriefcase,
   FaGraduationCap,
   FaCode,
+  FaBlogger,
+  FaBlog,
 } from "react-icons/fa";
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
@@ -75,6 +77,12 @@ export const links = [
     icon: <FaEnvelopeOpen className="nav__icon" />,
     path: "/contact",
   },
+  {
+    id: 5,
+    name: "Blog",
+    icon: <FaBlog className="nav__icon" />,
+    path: "http://blog.abdaziz.net",
+  },
 ];
 
 export const personalInfo = [
@@ -118,6 +126,11 @@ export const personalInfo = [
     id: 7,
     title: "Email : ",
     description: "dev.abdaziz@outlook.com",
+  },
+  {
+    id: 8,
+    title: "Blog : ",
+    description: "blog.abdaziz.net",
   },
 ];
 
