@@ -32,6 +32,7 @@ import Work18 from "./assets/project-7.jpg";
 import Work19 from "./assets/project-19.jpg";
 import Work20 from "./assets/project-20.jpg";
 import Work21 from "./assets/project-21.jpg";
+import Work22 from "./assets/project-22.jpg";
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -869,6 +870,29 @@ export const portfolio = [
         icon: <FaCode />,
         title: "Language : ",
         desc: "C#",
+      },
+    ],
+  },
+
+  {
+    id: 22,
+    img: Work22,
+    title: "Fingerprint System Reparation Tools",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Fingerprint System Reparation Tools for Biometric reparation images",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "PT. Bank Central Asia",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "React Js, C++, C#",
       },
     ],
   },
