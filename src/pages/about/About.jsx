@@ -80,12 +80,14 @@ const About = () => {
         <h3 className="section__subtitle subtitle__center">Certifications</h3>
         <div className="certificate__container grid">
           <div className="certificate__data">
-            {certificate.map((val) => {
-              return <CertificateItem key={val.id} {...val} />;
-            })}
+            {certificate
+              .sort((a, b) => b.id - a.id)
+              .map((val) => {
+                return <CertificateItem key={val.id} {...val} />;
+              })}
           </div>
         </div>
-      </section>      
+      </section>
     </main>
   );
 };
