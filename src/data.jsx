@@ -405,6 +405,14 @@ export const certificate = [
     date: "2024",
     url: "https://www.dicoding.com/certificates/81P24NEWNZOY",
   },
+  {
+    id: 19,
+    img: CertDicoding,
+    title: "Learn AI Basics",
+    desc: "This class is intended for beginners who want to start a career in the world of AI. After taking the class, students are expected to be able to examine various basic concepts in AI and their applications well. Materials studied: Getting to Know Artificial Intelligence (AI), Data for AI, Introduction to Machine Learning, Deep Learning For Everyone",
+    date: "2024",
+    url: "https://www.dicoding.com/certificates/1OP842E5QZQK",
+  },
 ];
 
 export const portfolio = [
