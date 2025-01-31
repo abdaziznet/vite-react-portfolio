@@ -49,6 +49,7 @@ import CertMTA from "./assets/img-cert-MTA.png";
 import CertKAFKA from "./assets/img-cert-KAFKA.png";
 import CertDicoding from "./assets/img-cert-dicoding.png";
 import CertK2 from "./assets/K2_Five_Core_Badge.png";
+import CertRedis from "./assets/img-redis.jpg";
 
 export const links = [
   {
@@ -412,6 +413,14 @@ export const certificate = [
     desc: "This class is intended for beginners who want to start a career in the world of AI. After taking the class, students are expected to be able to examine various basic concepts in AI and their applications well. Materials studied: Getting to Know Artificial Intelligence (AI), Data for AI, Introduction to Machine Learning, Deep Learning For Everyone",
     date: "2024",
     url: "https://www.dicoding.com/certificates/1OP842E5QZQK",
+  },
+  {
+    id: 20,
+    img: CertRedis,
+    title: "Get Started with Redis",
+    desc: "Get Started with Redis. Materials studied: Introduction to Redis, Redis Data Types, Redis Commands, Redis Performance, and Redis Use Cases.",
+    date: "2025",
+    url: "https://www.credential.net/4aad43d4-1ce8-450e-8b1a-595db2aa503b?username=abdaziz",
   },
 ];
 
