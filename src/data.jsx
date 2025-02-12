@@ -417,10 +417,18 @@ export const certificate = [
   {
     id: 20,
     img: CertRedis,
-    title: "Get Started with Redis",
-    desc: "Get Started with Redis. Materials studied: Introduction to Redis, Redis Data Types, Redis Commands, Redis Performance, and Redis Use Cases.",
+    title: "Get started with Redis",
+    desc: "Get started with Redis. Materials studied: Introduction to Redis, Explore Redis for developers, Build your database, Redis Insight for developers, Explore Redis Data Types, Explore more data structures, Use key expiration, Explore use cases.",
     date: "2025",
     url: "https://www.credential.net/4aad43d4-1ce8-450e-8b1a-595db2aa503b?username=abdaziz",
+  },
+  {
+    id: 21,
+    img: CertRedis,
+    title: "Get started with Redis Software",
+    desc: "Get started with Redis Software. Materials studied: Explore Redis Software, Deploy Redis Software, Create database on Redis Software, Connect to a database on Redis Software, Import data into a database on Redis Software, Monitor a Redis Software deployment.",
+    date: "2025",
+    url: "https://www.credential.net/2599097b-dee0-44f3-b88e-af0ace5b6d70?username=abdaziz",
   },
 ];
 
