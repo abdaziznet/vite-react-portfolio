@@ -430,6 +430,14 @@ export const certificate = [
     date: "2025",
     url: "https://www.credential.net/2599097b-dee0-44f3-b88e-af0ace5b6d70?username=abdaziz",
   },
+  {
+    id: 22,
+    img: CertRedis,
+    title: "Redis JSON",
+    desc: "Redis JSON. Materials studied: Managing JSON data in Redis, Application development with Redis JSON, Indexing and searching JSON docs in your application, JSON advanced topics, Redis JSON final exam.",
+    date: "2025",
+    url: "https://www.credential.net/f5182a80-57fd-4ff6-8137-48e4f777df0c?username=abdaziz",
+  },
 ];
 
 export const portfolio = [
