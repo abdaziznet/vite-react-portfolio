@@ -438,6 +438,14 @@ export const certificate = [
     date: "2025",
     url: "https://www.credential.net/f5182a80-57fd-4ff6-8137-48e4f777df0c?username=abdaziz",
   },
+  {
+    id: 23,
+    img: CertRedis,
+    title: "Redis Query Engine",
+    desc: "Redis Query Engine. Materials studied: Querying structured data with Redis Query Engine, Full-text search with Redis Query Engine, Aggregations with Redis Query Engine,Redis Query Engine advanced topics, Redis Query Engine final exam.",
+    date: "2025",
+    url: "https://www.credential.net/a8a873a7-12fa-496c-93bb-40c139c5f5af?username=abdaziz",
+  },
 ];
 
 export const portfolio = [
