@@ -446,6 +446,14 @@ export const certificate = [
     date: "2025",
     url: "https://www.credential.net/a8a873a7-12fa-496c-93bb-40c139c5f5af?username=abdaziz",
   },
+  {
+    id: 24,
+    img: CertRedis,
+    title: "Redis for AI",
+    desc: "Redis for AI. Materials studied: Introduction to semantic search, Introduction to vector search, Redis as a vector database, Vector and working with client libraries, Vector advanced topics, Redis for AI final exam.",
+    date: "2025",
+    url: "https://www.credential.net/08c98a82-95b6-4c49-91e1-285aeb2e4ed8?username=abdaziz",
+  },
 ];
 
 export const portfolio = [
