@@ -454,6 +454,22 @@ export const certificate = [
     date: "2025",
     url: "https://www.credential.net/08c98a82-95b6-4c49-91e1-285aeb2e4ed8?username=abdaziz",
   },
+  {
+    id: 25,
+    img: CertRedis,
+    title: "Redis Streams",
+    desc: "Redis Streams. Materials studied: Redis streams introduction, Redis streams producers and consumers, Redis streams consumer groups, Redis streams in production, Redis streams final exam.",
+    date: "2025",
+    url: "https://www.credential.net/23479bff-08c9-481f-8022-7aeca9187703?username=abdaziz",
+  },
+  {
+    id: 26,
+    img: CertRedis,
+    title: "Redis for Javascript Developers",
+    desc: "Redis for Javascript Developers. Materials studied: Redis for JavaScript developers introduction, Build a JavaScript application with Redis, Index, Search, and Stream in Redis with JavaScript, Troubleshooting Redis with JavaScript, Redis for JavaScript developers final exam.",
+    date: "2025",
+    url: "https://www.credential.net/46393de4-7d90-428b-90b7-0fa1f1a1fe8a?username=abdaziz",
+  },
 ];
 
 export const portfolio = [
