@@ -50,6 +50,7 @@ import CertKAFKA from "./assets/img-cert-KAFKA.png";
 import CertDicoding from "./assets/img-cert-dicoding.png";
 import CertK2 from "./assets/K2_Five_Core_Badge.png";
 import CertRedis from "./assets/img-redis.jpg";
+import CertKafkaAcreditation from "./assets/img-confluent-kafka.png";
 
 export const links = [
   {
@@ -469,6 +470,14 @@ export const certificate = [
     desc: "Redis for Javascript Developers. Materials studied: Redis for JavaScript developers introduction, Build a JavaScript application with Redis, Index, Search, and Stream in Redis with JavaScript, Troubleshooting Redis with JavaScript, Redis for JavaScript developers final exam.",
     date: "2025",
     url: "https://www.credential.net/46393de4-7d90-428b-90b7-0fa1f1a1fe8a?username=abdaziz",
+  },
+  {
+    id: 27,
+    img: CertKafkaAcreditation,
+    title: "Confluent Apache Kafka Fundamentals Accreditation",
+    desc: "The Confluent Apache Kafka Fundamentals Accreditation validates a strong foundation in Apache Kafka and the Confluent Platform. Earners grasp Kafka’s core concepts, real-world use cases, and its capabilities as a scalable, resilient event streaming platform.Accredited users understand Kafka’s architecture, enterprise features, and emerging advancements like KRaft and Apache Flink.",
+    date: "2025",
+    url: "https://certificates.confluent.io/702758d9-89b3-449e-9e8a-6d79d6f4f78a#acc.JwlQbzmj",
   },
 ];
 
