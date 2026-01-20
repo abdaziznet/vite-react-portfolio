@@ -479,6 +479,14 @@ export const certificate = [
     date: "2025",
     url: "https://certificates.confluent.io/702758d9-89b3-449e-9e8a-6d79d6f4f78a#acc.JwlQbzmj",
   },
+  {
+    id: 28,
+    img: CertRedis,
+    title: "Associate Redis Software operator certification exam",
+    desc: "Associate Redis Software operator certification exam",
+    date: "2026",
+    url: "https://www.credential.net/62edd2e3-3fbc-4f10-a896-e1225998dbe2?username=abdaziz",
+  },
 ];
 
 export const portfolio = [
