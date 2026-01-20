@@ -482,6 +482,14 @@ export const certificate = [
   {
     id: 28,
     img: CertRedis,
+    title: "Operate Redis Software learning path",
+    desc: "Operate Redis Software learning path. Materials studied: Deploy, configure, and connect to Redis Software for production use, Understand the inner-workings of Redis Software, Apply best practices for scalability, durability, security, monitoring, and migration with Redis Software",
+    date: "2026",
+    url: "https://www.credential.net/f03bac82-8e4b-47e9-83d6-af3b9ad04c9c?username=abdaziz",
+  },
+  {
+    id: 29,
+    img: CertRedis,
     title: "Associate Redis Software operator certification exam",
     desc: "Associate Redis Software operator certification exam",
     date: "2026",
