@@ -51,6 +51,7 @@ import CertDicoding from "./assets/img-cert-dicoding.png";
 import CertK2 from "./assets/K2_Five_Core_Badge.png";
 import CertRedis from "./assets/img-redis.jpg";
 import CertKafkaAcreditation from "./assets/img-confluent-kafka.png";
+import CertAzureRedis from "./assets/AMR.png";
 
 export const links = [
   {
@@ -494,6 +495,14 @@ export const certificate = [
     desc: "Associate Redis Software operator certification exam",
     date: "2026",
     url: "https://www.credential.net/62edd2e3-3fbc-4f10-a896-e1225998dbe2?username=abdaziz",
+  },
+  {
+    id: 30,
+    img: CertAzureRedis,
+    title: "Azure Managed Redis (AMR) Partner Sales Associate",
+    desc: "Learning objectives: Explain AMRs capabilities from cache to vector database and how AMR addresses customer needs across tiers. Show how AMR data types, client libraries, and features support high-performance, real-time apps. Describe how AMR enables AI workloads through vector search, semantic caching, and integration with AI frameworks. Plan a migration from OSS Redis or ACRE to AMR by identifying key steps and best practices. Deploy AMR through the Azure portal and connect apps to deliver real-time performance at scale.",
+    date: "2026",
+    url: "https://www.credential.net/5aa6e490-8ac5-4a8a-a463-d911723a02d3?username=abdaziz",
   },
 ];
 
