@@ -520,6 +520,14 @@ export const certificate = [
     date: "2026",
     url: "https://www.credential.net/b22714be-8f2f-4ff4-a95f-4d7d398d80e4?username=abdaziz",
   },
+  {
+    id: 33,
+    img: CertRedis,
+    title: "Redis Deployment Engineer exam",
+    desc: "Earned the Redis Deployment Engineer certification, demonstrating expertise in deploying, configuring, and managing Redis in production environments. Validated skills include Redis installation, cluster administration, performance monitoring, high availability setup, security implementation, and troubleshooting real-world deployment scenarios. This certification confirms the ability to operate Redis at scale using industry best practices.",
+    date: "2026",
+    url: "https://www.credential.net/edaad74e-dfe6-4502-a4e4-062deb1ee6d8?username=abdaziz",
+  },
 ];
 
 export const portfolio = [
