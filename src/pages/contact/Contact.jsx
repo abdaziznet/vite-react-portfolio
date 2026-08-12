@@ -44,8 +44,33 @@ const Contact = () => {
     setMessageBoxOpen(false);
   };
 
+  const validateForm = () => {
+    const formEl = form.current;
+    if (!formEl) return "Form is not ready. Please try again.";
+
+    const name = formEl.elements["from_name"]?.value?.trim();
+    const email = formEl.elements["user_email"]?.value?.trim();
+    const subject = formEl.elements["subject"]?.value?.trim();
+    const message = formEl.elements["message"]?.value?.trim();
+
+    if (!name) return "Please enter your name.";
+    if (!email) return "Please enter your email.";
+    if (!/^\S+@\S+\.\S+$/.test(email)) return "Please enter a valid email address.";
+    if (!subject) return "Please enter a subject.";
+    if (!message) return "Please enter your message.";
+    if (message.length < 10) return "Message is too short (min 10 characters).";
+
+    return null;
+  };
+
   const sendEmail = (e) => {
     e.preventDefault();    
+
+    const validationError = validateForm();
+    if (validationError) {
+      openMessageBox(validationError);
+      return;
+    }
 
     emailjs
       .sendForm(
@@ -160,6 +185,7 @@ const Contact = () => {
                 placeholder="Your Name"
                 className="form__control"
                 name="from_name"
+                required
               />
             </div>
 
@@ -169,6 +195,7 @@ const Contact = () => {
                 placeholder="Your Email"
                 className="form__control"
                 name="user_email"
+                required
               />
             </div>
 
@@ -178,6 +205,7 @@ const Contact = () => {
                 placeholder="Your Subject"
                 className="form__control"
                 name="subject"
+                required
               />
             </div>
           </div>
@@ -187,6 +215,8 @@ const Contact = () => {
               placeholder="Your Message"
               className="form__control textarea"
               name="message"
+              minLength={10}
+              required
             ></textarea>
           </div>
 

@@ -52,6 +52,7 @@ import CertK2 from "./assets/K2_Five_Core_Badge.png";
 import CertRedis from "./assets/img-redis.jpg";
 import CertKafkaAcreditation from "./assets/img-confluent-kafka.png";
 import CertAzureRedis from "./assets/AMR.png";
+import CertDelphix from "./assets/delphix-icon.png";
 
 export const links = [
   {
@@ -527,6 +528,14 @@ export const certificate = [
     desc: "Earned the Redis Deployment Engineer certification, demonstrating expertise in deploying, configuring, and managing Redis in production environments. Validated skills include Redis installation, cluster administration, performance monitoring, high availability setup, security implementation, and troubleshooting real-world deployment scenarios. This certification confirms the ability to operate Redis at scale using industry best practices.",
     date: "2026",
     url: "https://www.credential.net/edaad74e-dfe6-4502-a4e4-062deb1ee6d8?username=abdaziz",
+  },
+  {
+    id: 34,
+    img: CertDelphix,
+    title: "Perforce Delphix DevOps Data Platform Overview",
+    desc: "Demonstrates a comprehensive understanding of the Delphix DevOps Data Platform, covering data virtualization (VDBs & dSources), sensitive data masking, and centralized data management orchestration using Data Control Tower (DCT).",
+    date: "2026",
+    url: "https://www.credential.net/fdf2a7fa-6ae4-4f77-b5e6-bca3958ff42d?username=abdaziz",
   },
 ];
 
