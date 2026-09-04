@@ -53,6 +53,7 @@ import CertRedis from "./assets/img-redis.jpg";
 import CertKafkaAcreditation from "./assets/img-confluent-kafka.png";
 import CertAzureRedis from "./assets/AMR.png";
 import CertDelphix from "./assets/delphix-icon.png";
+import CertRedisAso from "./assets/img-redis-aso.png";
 
 export const links = [
   {
@@ -536,6 +537,14 @@ export const certificate = [
     desc: "Demonstrates a comprehensive understanding of the Delphix DevOps Data Platform, covering data virtualization (VDBs & dSources), sensitive data masking, and centralized data management orchestration using Data Control Tower (DCT).",
     date: "2026",
     url: "https://www.credential.net/fdf2a7fa-6ae4-4f77-b5e6-bca3958ff42d?username=abdaziz",
+  },
+  {
+    id: 35,
+    img: CertRedisAso,
+    title: "Redis Associate Software Operator",
+    desc: "The Redis Associate Software Operator certification confirms that a professional is skilled at deploying, configuring, and managing Redis Software in production environments. Certified operators understand the inner-workings of Redis Software and can apply best practices for scalability, durability, security, monitoring, and migration. To earn this certification, you must pass a proctored, scenario-based exam that tests your ability to make practical operational decisions in real-world Redis Software environments.",
+    date: "2026",
+    url: "https://credentials.redis.io/d74c3d5c-b5f7-419d-b140-59094250cf62#acc.pRUJl7io",
   },
 ];
 
