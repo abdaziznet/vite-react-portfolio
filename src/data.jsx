@@ -54,6 +54,7 @@ import CertKafkaAcreditation from "./assets/img-confluent-kafka.png";
 import CertAzureRedis from "./assets/AMR.png";
 import CertDelphix from "./assets/delphix-icon.png";
 import CertRedisAso from "./assets/img-redis-aso.png";
+import CertDelphixCde from "./assets/delphix-cde.png";
 
 export const links = [
   {
@@ -545,6 +546,14 @@ export const certificate = [
     desc: "The Redis Associate Software Operator certification confirms that a professional is skilled at deploying, configuring, and managing Redis Software in production environments. Certified operators understand the inner-workings of Redis Software and can apply best practices for scalability, durability, security, monitoring, and migration. To earn this certification, you must pass a proctored, scenario-based exam that tests your ability to make practical operational decisions in real-world Redis Software environments.",
     date: "2026",
     url: "https://credentials.redis.io/d74c3d5c-b5f7-419d-b140-59094250cf62#acc.pRUJl7io",
+  },
+  {
+    id: 36,
+    img: CertDelphixCde,
+    title: "Delphix Continuous Data Fundamental ",
+    desc: "The Delphix Continuous Data Fundamental badge is intended for Perforce Field Engineers and Perforce Partner Engineers who specialize in designing and configuring Delphix Continuous Data into their industry service offerings; Individuals who have earned this badge participate in computer based training and complete a hands-on workshop.",
+    date: "2026",
+    url: "https://www.credly.com/badges/2fd6f655-ea63-408d-8571-265babb7433f/linked_in_profile",
   },
 ];
 
