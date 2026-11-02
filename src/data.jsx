@@ -55,6 +55,7 @@ import CertAzureRedis from "./assets/AMR.png";
 import CertDelphix from "./assets/delphix-icon.png";
 import CertRedisAso from "./assets/img-redis-aso.png";
 import CertDelphixCde from "./assets/delphix-cde.png";
+import CertDelphixCce from "./assets/delphix-cce.png";
 
 export const links = [
   {
@@ -550,10 +551,18 @@ export const certificate = [
   {
     id: 36,
     img: CertDelphixCde,
-    title: "Delphix Continuous Data Fundamental ",
+    title: "Delphix Continuous Data Fundamental",
     desc: "The Delphix Continuous Data Fundamental badge is intended for Perforce Field Engineers and Perforce Partner Engineers who specialize in designing and configuring Delphix Continuous Data into their industry service offerings; Individuals who have earned this badge participate in computer based training and complete a hands-on workshop.",
     date: "2026",
-    url: "https://www.credly.com/badges/2fd6f655-ea63-408d-8571-265babb7433f/linked_in_profile",
+    url: "https://www.credly.com/badges/2fd6f655-ea63-408d-8571-265babb7433f",
+  },
+  {
+    id: 37,
+    img: CertDelphixCce,
+    title: "Delphix Continuous Compliance Fundamentals",
+    desc: "The Continuous Compliance Fundamental badge is intended for Perforce Field Engineers and Perforce Partner Engineers who specialize in designing and configuring Delphix Masking to their industry service offerings; Individuals who have earned this badge participate in computer based training and complete a hands-on workshop.",
+    date: "2026",
+    url: "https://www.credly.com/badges/e9be4779-f5ee-4660-96eb-14b310de3899",
   },
 ];
 
